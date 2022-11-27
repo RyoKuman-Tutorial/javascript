@@ -50,6 +50,7 @@ const obj1 = {
   func : function (){ console.log (this)}
 }
 
-obj1.func() // obj1
-obj1.obj2.func() // obj2
+obj1.func() // obj1 을 가르킨다.
+obj1.obj2.func() // obj2 을 가르킨다.
+obj1.obj2.obj3.func() // obj3 을 가르킨다.
 ```
