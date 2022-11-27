@@ -1,9 +1,16 @@
-const nunu = {
-  q: "consume",
-  w: "snowball",
-};
+function machine() {
+  this.q = "consume";
+  this.w = "snowball";
+}
 
-const garen = {
-  q: "strike",
-  w: "courage",
-};
+const nunu = new machine();
+
+// const nunu = {
+//   q: "consume",
+//   w: "snowball",
+// };
+
+// const garen = {
+//   q: "strike",
+//   w: "courage",
+// };
