@@ -1,2 +1,8 @@
+"use strict";
+
 console.log(this);
-// window
+
+function func() {
+  console.log(this);
+}
+func();
