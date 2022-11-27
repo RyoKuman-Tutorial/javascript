@@ -1,10 +1,11 @@
 # For Learning JavaScript
 
-- es6
+- ## es6
   - [class](./class/README.md)
-- es7
-- es8
+  - [prototype](./prototype/README.md)
+- ## es7
+- ## es8
 
-* References <br/>
+* ### References <br/>
   https://nomadcoders.co/es6-once-and-for-all <br/>
   https://codingapple.com/course/javascript-es6/ <br/>
