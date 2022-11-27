@@ -23,3 +23,14 @@ const obj = {
 };
 
 obj.func();
+
+const objWithArrow = {
+  array: [1, 2, 3, 4],
+  func: function () {
+    this.array.forEach((a) => {
+      console.log(this);
+    });
+  },
+};
+
+objWithArrow.func();
