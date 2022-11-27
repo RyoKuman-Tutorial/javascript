@@ -43,3 +43,19 @@ obj.func();
 
 // 둘 다 window 출력
 ```
+
+## 하지만 arrow function 내부에서의 this 는 해당 함수의 부모를 가르킨다.
+
+```
+const objWithArrow = {
+  array: [1, 2, 3, 4],
+  func: function () {
+    this.array.forEach((a) => {
+      console.log(this);
+    });
+  },
+};
+
+objWithArrow.func();
+// objWithArrow 출력
+```
