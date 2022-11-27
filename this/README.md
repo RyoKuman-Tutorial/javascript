@@ -37,8 +37,6 @@ obj.func();
 this 는 해당 메소드( 객체 속의 함수 ) 를 소유하고 있는,
 객체를 가르킨다.
 
-#### ex
-
 ```
 const obj1 = {
   obj2 : {
@@ -53,4 +51,11 @@ const obj1 = {
 obj1.func() // obj1 을 가르킨다.
 obj1.obj2.func() // obj2 을 가르킨다.
 obj1.obj2.obj3.func() // obj3 을 가르킨다.
+```
+
+또한 작성하는 모든 함수의 최상위는 window 라고하는 객체이다.
+
+```
+function func1 (){}
+(window.func1 === func1) == true;
 ```
