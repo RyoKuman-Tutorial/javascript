@@ -1,7 +1,7 @@
 # For Learning JavaScript
 
 - es6
-  -- [class](./class/README.md)
+  - [class](./class/README.md)
 - es7
 - es8
 
