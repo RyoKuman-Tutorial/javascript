@@ -1,9 +1,9 @@
-function machine() {
-  this.q = "consume";
-  this.w = "snowball";
+function machine(value1, value2) {
+  this.q = value1;
+  this.w = value2;
 }
 
-const nunu = new machine();
+const nunu = new machine("consume", "snowball");
 
 // const nunu = {
 //   q: "consume",
