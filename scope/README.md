@@ -55,8 +55,9 @@ func1(){
 위의 경우 func2 에 a 가 존재하지 않으므로 상위 스코프인 if, func1 등을 검토하여 a 를 찾아내
 func1 의 변수인 a 값인 1을 출력한다.
 
-♣️ 상위 스코프가 무엇이 될 지는, 어떤 스코프를 사용하느냐에 따라 달라진다,
-function 이라면 func1, window 가 상위 스코프, block 이라면 글처럼 if, func1, window 가 상위 스코프이다.
+♣️ 상위 스코프가 무엇이 될 지는, 어떤 스코프를 사용하느냐에 따라 달라진다, <br/>
+function 이라면 func1, window 가 상위 스코프,<br/>
+block 이라면 글처럼 if, func1, window 가 상위 스코프이다.<br/>
 해당 개념은 아래에서 추가적으로 다루기에, 그런게 있구나 하고 넘어가면 된다.
 
 ## FUNCTION SCOPE
