@@ -19,11 +19,14 @@ console.log("funct console.log is : " + a); // 1 => function(local) scope 내부
 
 function blockPrint() {
   const b = 111;
-  console.log("blockPrint is :" + b);
+  console.log("blockPrint is :" + b); // 111 => b 는 현재 block scope 에 존재, 때문에 111 출력
+
+  function test() {
+    const c = 111;
+    console.log(b, c); // 111 111 => b 는 현재 block scope 에 존재하지 않는다, 때문에 scope chain 에 의해 상위 스코프들을 검토, blockPrint의 b 발견 이후 출력
+  }
+
+  test(); /// 111 111
 }
 
-{
-  const b = 1;
-  console.log("block console.log is : " + a);
-  blockPrint();
-}
+blockPrint(); // 111 , 111 111
