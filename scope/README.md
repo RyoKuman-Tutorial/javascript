@@ -88,6 +88,6 @@ func1(){ // if 의 부모 스코프이며, window 의 자식 스코프이다.
 
 ### REF
 
-https://medium.com/@su_bak/javascript-%EC%8A%A4%EC%BD%94%ED%94%84-scope-%EB%9E%80-bc761cba1023
-https://poiemaweb.com/js-scope
-https://www.youtube.com/watch?v=HsJ4oy_jBx0
+- https://medium.com/@su_bak/javascript-%EC%8A%A4%EC%BD%94%ED%94%84-scope-%EB%9E%80-bc761cba1023
+- https://poiemaweb.com/js-scope
+- https://www.youtube.com/watch?v=HsJ4oy_jBx0
