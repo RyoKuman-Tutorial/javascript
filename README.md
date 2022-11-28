@@ -3,6 +3,7 @@
 - ## es6
   - [class](./class/README.md)
   - [prototype](./prototype/README.md)
+  - [scope](./scope/README.md)
 - ## es7
 - ## es8
 - ## ETC
